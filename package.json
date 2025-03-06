@@ -5,7 +5,8 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
-    "doc": "ts-node src/swagger.ts"
+    "doc": "ts-node src/swagger.ts",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
